@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Styling</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.4;
+        }
+
+        /* Side menu */
+        .side-menu {
+            list-style: none;
+            width: 300px;
+            border: #777 solid 1px;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .side-menu li {
+            font-size: 18px;
+            border-bottom: #333 1px dotted;
+            line-height: 2;
+        }
+
+        .side-menu li:last-child {
+            border: none;
+        }
+
+        .side-menu li a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .side-menu li a:hover {
+            color: orangered;
+        }
+
+        /* navbar */
+        .navbar {
+            list-style: none;
+            overflow: auto;
+            padding: 0;
+            margin: 0;
+            background: #5f0f40;
+            border-radius: 5px;
+        }
+
+        .navbar li {
+            display: block;
+        }
+
+        .navbar li a {
+            padding: 15px 25px;
+            float: left;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .navbar li a:hover {
+            background: #9a031e;
+            color: #faf0ca;
+        }
+
+        /* second nav */
+        .navbar2 {
+            text-transform: uppercase;
+            overflow: auto;
+            list-style: none;
+            background: #293241;
+            margin: 0;
+            padding: 0;
+            border-radius: 10px;
+        }
+
+        .navbar2 li {
+            display: block;
+        }
+
+        .navbar2 li a {
+            float: left;
+            padding: 20px 30px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .navbar2 li a:hover {
+            background: #ee6c4d;
+            color: #001524;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <br>
+
+    <ul class="navbar2">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+    <ul class="side-menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+
+</body>
+
+</html>
