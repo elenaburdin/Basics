@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VH & VW Units</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #000814;
+        }
+
+        #main-header {
+            background: url('https://images.unsplash.com/photo-1423768164017-3f27c066407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80') no-repeat center center/cover;
+            height: 100vh;
+
+        }
+
+        #main-header .context {
+            text-align: center;
+            padding-top: 20rem;
+            margin: 0 20px;
+        }
+
+        #main-header .context h1 {
+            font-size: 3rem;
+        }
+
+        #main-header .context p {
+            padding-bottom: 40px;
+        }
+
+        #main-header .btn {
+            background: #8ecae6;
+            color: #000814;
+            text-decoration: none;
+            cursor: pointer;
+            padding: 10px 30px;
+            border: 5px solid #219ebc;
+            border-radius: 15px;
+            /* font-weight: bold; */
+            transition: all 0.4s ease-in;
+        }
+
+        #main-header .btn:hover {
+            background: #000814;
+            color: #fff;
+        }
+
+        /* info */
+        #info {
+            margin: 20px 50px;
+        }
+
+        #info h2 {
+            border-bottom: #219ebc solid 3px;
+            width: 14.5vw;
+        }
+
+        #info p {
+            padding: 15px 0;
+        }
+
+        /* Footer */
+        #main-footer {
+            background: #000814;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        @media(min-width: 350px) and (max-width: 900px) {
+            #main-header .context {
+                padding-top: 18rem;
+            }
+
+            #main-header .context h1 {
+                font-size: 2.5rem;
+            }
+
+            #main-header .context p {
+                font-size: 0.9rem;
+                padding-bottom: 40px;
+            }
+
+            #info h2 {
+                font-size: 2rem;
+                border: none;
+                border-bottom: #219ebc solid 3px;
+                width: 80vw;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <div class="context">
+                <h1>Welcome To Our Website</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus amet ad quidem officiis, facere
+                    quod.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="info">
+        <h2>About Our Website</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolor iusto aspernatur omnis corporis vitae
+            esse, error perspiciatis, eum rerum, rem provident voluptatum alias nobis cumque doloribus qui fugiat
+            repellendus veritatis labore nostrum fugit quo! Qui cum fuga tempora ipsam?</p>
+    </section>
+
+    <footer id="main-footer">
+        <p>Random Website &copy; 2023 All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
