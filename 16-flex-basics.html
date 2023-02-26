@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Basics</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .flex-container {
+            display: flex;
+            /* flex-direction: row; */
+            /* flex-wrap: wrap; */
+        }
+
+        .box {
+            background: #ccd5ae;
+            border: #d4a373 2px solid;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px;
+            width: 200px;
+            flex: 1;
+        }
+
+        .box-1 {
+            flex-shrink: 0;
+            /* flex-basis: 1; */
+        }
+
+        /* .box-2 {
+            flex-grow: 1;
+        }
+
+        .box-3 {
+            flex-grow: 2;
+            flex-basis: 3;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <div class="flex-container">
+        <div class="box box-1">
+            <h3>Box 1</h3>
+        </div>
+        <div class="box box-2">
+            <h3>Box 2</h3>
+        </div>
+        <div class="box box-3">
+            <h3>Box 3</h3>
+        </div>
+    </div>
+
+</body>
+
+</html>
